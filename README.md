@@ -64,7 +64,7 @@ Dataset berupa data medis tabular pasien dengan status diabetes (positif dan neg
 - Usia (age) : 
   Berisi data usia pasien, bertipe data integer atau numerik. Eksplorasi fitur dapat dilakukan seperti mendapatkan rata-rata usia pada dataset, rata-rata usia yang mengidap diabetes, serta memvisualisasikan distribusi diabetes berdasarkan usia menggunakan diagram boxplot.
 
-  <img src='images/distribusi usia.png' width=50>
+  <img src='images/distribusi usia.png' width=500>
 
 - Jenis kelamin (gender) : 
   Berisi data jenis kelamin pasien dengan kategori male (male) dan female (perempuan), bertipe data string atau object dalam dataframe. Eksplorasi fitur yang dilakukan berupa menghitung jumlah setiap kategori menggunakan fungsi value_count() serta memvisualisasikan distribusi jenis kelamin menggunakan diagram batang dan diagram  lingkaran atau pie untuk mengetahui persentase banyaknya kategori.
