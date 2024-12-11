@@ -1,8 +1,8 @@
 # Laporan Proyek Machine Learning - Eko Rahmat Darmawan
 
-Nama : Eko Rahmat Darmawan
-Email : Erdarmawan7@gmail.com
-ID Dicoding : echo_ramled
+- Nama : Eko Rahmat Darmawan
+- Email : Erdarmawan7@gmail.com
+- ID Dicoding : echo_ramled
 
 ## Domain Proyek
 
@@ -69,27 +69,27 @@ Dataset berupa data medis tabular pasien dengan status diabetes (positif dan neg
 - Jenis kelamin (gender) : 
   Berisi data jenis kelamin pasien dengan kategori male (male) dan female (perempuan), bertipe data string atau object dalam dataframe. Eksplorasi fitur yang dilakukan berupa menghitung jumlah setiap kategori menggunakan fungsi value_count() serta memvisualisasikan distribusi jenis kelamin menggunakan diagram batang dan diagram  lingkaran atau pie untuk mengetahui persentase banyaknya kategori.
 
-  <img src='images/distribusi gender.png' width=50>
+  <img src='images/distribusi gender.png' width=500>
 
 - Riwayat hipertensi (hypertension) : 
   Berisi data riwayat hipertensi pada pasien dengan nilai 0 atau 1. Nilai 0 melambangkan tidak ada riwayat hipertensi sedangkan nilai 1 melambangkan pasien memiliki riwayat hipertensi. Bertipe data integer atau numerik. Eksplorasi fitur yang dilakukan berupa menghitung jumlah setiap kategori menggunakan fungsi value_count() serta memvisualisasikan distribusi jenis kelamin menggunakan diagram batang dan diagram  lingkaran atau pie untuk mengetahui persentase banyaknya kategori.
 
-  <img src='images/distribusi hipertensi.png' width=50>
+  <img src='images/distribusi hipertensi.png' width=500>
 
 - Riwayat penyakit jantung (heart_disease) : 
   Berisi data riwayat penyakit jantung pada pasien dengan nilai 0 atau 1. Nilai 0 melambangkan tidak ada riwayat jantung sedangkan nilai 1 melambangkan pasien memiliki riwayat sakit jantung. Bertipe data integer atau numerik. Eksplorasi fitur yang dilakukan berupa menghitung jumlah setiap kategori menggunakan fungsi value_count() serta memvisualisasikan distribusi jenis kelamin menggunakan diagram batang dan diagram  lingkaran atau pie untuk mengetahui persentase banyaknya kategori.
 
-  <img src='images/distribusi riwayat jantung.png' width=50>
+  <img src='images/distribusi riwayat jantung.png' width=500>
 
 - Riwayat Merokok (smoking_history) : 
   Berisi data riwayat merokok pada pasien dengan 6 kategori yaitu never (tidak pernah), no info (tidak ada informasi), current (aktif sekarang), former (mantan perokok), ever (pernah), not current (tidak aktif). Bertipe data string atau objek dalam dataframe.  Eksplorasi fitur yang dilakukan berupa menghitung jumlah setiap kategori menggunakan fungsi value_count() serta memvisualisasikan distribusi jenis kelamin menggunakan diagram batang dan diagram  lingkaran atau pie untuk mengetahui persentase banyaknya kategori.
 
-  <img src='images/distribusi riwayat merokok.png' width=50>
+  <img src='images/distribusi riwayat merokok.png' width=500>
 
 - Indeks Berat Badan / Body Mass Index (BMI) : 
   Berisi data indeks berat badan pasien untuk indentifikasi pengaruh berat badan obesitas terhadap diabetes. Bertipe data float. Ekslorasi data yang dilakukan menampilkan rata-rata berat badan yang mengidap diabetes serta memvisualisasikan distribusi berat badan menggunakan distplot dan distribusi diabetes berdasarkan berat badan menggunakan diagram boxplot.
 
-  <img src='images/distribusi berat badan.png' width=50>
+  <img src='images/distribusi berat badan.png' width=500>
 
 - HbA1c Level : Berisi data tingkat HbA1c atau intensitas gula pada sel darah
 - Level Gula Darah (blood_glucose_level) : Berisi data tingkat gula dalam darah
@@ -182,7 +182,7 @@ Confusion matrix adalah tabel yang digunakan untuk mengevaluasi performa model k
 
 Berikut tampilan confusion matrix model Logistic Regression dan Random Forest Classifier. Untuk Lebih lengkapnya dapat dilihat pada file ipynb.
 
-<img src='images/lr.png' width=50>
-<img src='images/rf.png' width=50>
+<img src='images/lr.png' width=500>
+<img src='images/rf.png' width=500>
 
 **---Ini adalah bagian akhir laporan---**
